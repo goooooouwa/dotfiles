@@ -1,4 +1,4 @@
-dotfiles for OS X
+dotfiles
 ========
 
 # Prerequisites 
