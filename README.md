@@ -1,4 +1,4 @@
-dotfiles
+dotfiles - my customization for vim, git and zsh
 ========
 
 # Prerequisites 
