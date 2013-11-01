@@ -17,4 +17,4 @@ dotfiles for OS X
 
 
 # Installation
-`$ make init`
+`$ make install`
