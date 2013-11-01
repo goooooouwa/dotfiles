@@ -3,9 +3,8 @@ dotfiles - vim, git and zsh customization
 
 # Prerequisites 
 
-Install [Janus](https://github.com/carlhuda/janus)
-
-Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+1 Install [Janus](https://github.com/carlhuda/janus)
+2 Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 
 # Installation
