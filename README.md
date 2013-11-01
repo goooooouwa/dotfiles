@@ -10,7 +10,7 @@ dotfiles - vim, git and zsh customization
 # Installation
 `$ make install`
 
-# customization list
+# Customization
 
 ## Vim
 * colorscheme molokai
