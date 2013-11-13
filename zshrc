@@ -46,3 +46,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$PATH:/Users/greg/.rvm/gems/ruby-2.0.0-p247/bin:/Users/greg/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/greg/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/greg/.rvm/bin:/Applications/Postgres.app/Contents/MacOS/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
