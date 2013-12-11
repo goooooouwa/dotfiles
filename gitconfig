@@ -3,7 +3,7 @@
 	email = gouwa5700@gmail.com
   
 [alias]
-  st = status
+  s = status
   cm = commit -m
   br = branch
   co = checkout
