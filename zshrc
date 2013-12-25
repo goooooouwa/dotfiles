@@ -45,10 +45,3 @@ plugins=(git ruby git-flow)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/Users/greg/.rvm/gems/ruby-2.0.0-p247/bin:/Users/greg/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/greg/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/greg/.rvm/bin:/Applications/Postgres.app/Contents/MacOS/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
-
-# add Android ADT to PATH
-export PATH=$PATH:/home/greg/adt-bundle-linux-x86_64-20131030/sdk/platform-tools:/home/greg/adt-bundle-linux-x86_64-20131030/sdk/tools
-
-
-[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
