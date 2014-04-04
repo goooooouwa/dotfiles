@@ -6,6 +6,8 @@ startup_message off
 
 # Escapes the 'z' character, instead of 'c'.
 # escape ^Zz
+bindkey -k k7 screen
+bindkey -k k8 next
 
 # Set up the tab bar.
 caption always              "%?%F%{=u ..}%? %h %-024=%{+b}"
