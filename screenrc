@@ -1,0 +1,12 @@
+# Use login shell.
+shell -$SHELL
+
+# Don't display the copyright page.
+startup_message off
+
+# Escapes the 'z' character, instead of 'c'.
+# escape ^Zz
+
+# Set up the tab bar.
+caption always              "%?%F%{=u ..}%? %h %-024=%{+b}"
+hardstatus alwayslastline   "%{= ..} %-w%{=b ..} %n* %t %{-}%+w %=%{= ..}"
