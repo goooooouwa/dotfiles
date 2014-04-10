@@ -8,6 +8,7 @@ set tabstop=4   "Indent by 4 spaces when pressing <TAB>
 set pastetoggle=<F9>
 
 set foldmethod=indent
+set foldlevelstart=20
 
 map  <C-l> :tabn<CR>
 map  <C-h> :tabp<CR>
