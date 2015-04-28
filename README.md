@@ -1,25 +1,11 @@
-dotfiles - vim, git and zsh customization 
+dotfiles - platform-ignorant preferences
 ========
-
-# Prerequisites 
-
-1. Install [Janus](https://github.com/carlhuda/janus)
-2. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-3. Install [nvm](https://github.com/creationix/nvm)
 
 # Installation
 `$ make install`
 
-# Customization
-
-## Vim
-* colorscheme molokai
-* tab navigation key mapping
-
-## Git
-* command shortcuts
-* beautiful log
-* colorful info
-
-## Zsh
-* load nvm
+# Tools envolved
+1. [Janus](https://github.com/carlhuda/janus)
+2. [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+3. Git
+4. Screen
