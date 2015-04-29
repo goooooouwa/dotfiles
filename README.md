@@ -1,4 +1,4 @@
-dotfiles - platform-ignorant preferences
+dotfiles - platform-agnostic configs
 ========
 
 # Installation
