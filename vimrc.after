@@ -1,10 +1,6 @@
 set background=dark
 colorscheme molokai
 
-set expandtab       "Use softtabstop spaces instead of tab characters for indentation
-set shiftwidth=2    "Indent by 2 spaces when using >>, <<, == etc.
-set tabstop=2   "Indent by 2 spaces when pressing <TAB>
-
 set pastetoggle=<F9>
 
 set foldmethod=indent
