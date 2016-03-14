@@ -1,8 +1,6 @@
 set background=dark
 colorscheme molokai
 
-set pastetoggle=<F9>
-
 set foldmethod=indent
 set foldlevelstart=20
 
