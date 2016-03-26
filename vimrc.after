@@ -1,6 +1,8 @@
 set background=dark
 colorscheme molokai
 
+set updatetime=250
+
 set foldmethod=indent
 set foldlevelstart=20
 
