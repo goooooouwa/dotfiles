@@ -15,7 +15,7 @@ ZSH_THEME="robbyrussell"
 # CASE_SENSITIVE="true"
 
 # Uncomment this to disable bi-weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment to change how often before auto-updates occur? (in days)
 # export UPDATE_ZSH_DAYS=13
@@ -40,8 +40,14 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(wd git rails)
+plugins=(wd git)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
+## Put your platform agnostic customizations here
+alias loadnvm=". ~/.loadnvm.sh"
+alias loadrvm=". ~/.loadrvm.sh"
+
+## Put your platform specific customizations below and do NOT commit them
