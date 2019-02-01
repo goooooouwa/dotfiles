@@ -40,14 +40,17 @@ DISABLE_AUTO_UPDATE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(wd git)
+plugins=(z git)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
-## Put your platform agnostic customizations here
+## Platform agnostic customizations
+
+## create alias to load rvm/nvm env on demand
 alias loadnvm=". ~/.loadnvm.sh"
 alias loadrvm=". ~/.loadrvm.sh"
 
-## Put your platform specific customizations below and do NOT commit them
+## Load specific customizations in ~/.extra.sh
+source ~/.extra.sh
