@@ -8,12 +8,3 @@
 	required = true
 	clean = git-lfs clean -- %f
 	process = git-lfs filter-process
-[user]
-	name = Shunfa Xu
-	email = sfxu@thoughtworks.com
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
