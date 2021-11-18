@@ -52,5 +52,5 @@ source $ZSH/oh-my-zsh.sh
 alias loadnvm=". ~/.loadnvm.sh"
 alias loadrvm=". ~/.loadrvm.sh"
 
-## Load specific customizations in ~/.extra.sh
-source ~/.extra.sh
+## Load specific customizations in ~/.custom.sh
+source ~/.custom.sh
