@@ -4,20 +4,7 @@ dotfiles - platform-agnostic configs
 ## Usage
 
 1. Create a `custom.sh` file and cusomize to your needs (see `custom-example.sh`)
-2. `$ make install`
-
-which will:
-
-```
-install:
-	ln -fs `pwd`/vimrc.after   ~/.vimrc.after
-	ln -fs `pwd`/gitconfig   ~/.gitconfig
-	ln -fs `pwd`/zshrc   ~/.zshrc
-	ln -fs `pwd`/screenrc   ~/.screenrc
-	ln -fs `pwd`/loadnvm.sh   ~/.loadnvm.sh
-	ln -fs `pwd`/loadrvm.sh   ~/.loadrvm.sh
-	cp -i `pwd`/extra-example.sh   ~/.extra.sh
-```
+2. `$ make install` (see details in `Makefile`)
 
 ## Setup Environment
 ```
