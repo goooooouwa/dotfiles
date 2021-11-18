@@ -1,7 +1,8 @@
 set background=dark
-" below 2 lines are for dark solarized theme
-let g:solarized_termtrans = 1
-let g:solarized_termcolors=16
+" solarized options
+let g:solarized_termcolors = 16
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
 colorscheme solarized
 
 set updatetime=250
