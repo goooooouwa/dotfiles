@@ -29,6 +29,12 @@ curl -L http://install.ohmyz.sh | sh
 # fix: change default shell to zsh
 chsh -s /bin/zsh
 
+# install zsh plugin zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# install zsh plugin zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
 ## Janus
 
 # install dependencies for janus
