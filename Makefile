@@ -5,4 +5,4 @@ install:
 	ln -fs `pwd`/screenrc   ~/.screenrc
 	ln -fs `pwd`/loadnvm.sh   ~/.loadnvm.sh
 	ln -fs `pwd`/loadrvm.sh   ~/.loadrvm.sh
-	mv `pwd`/custom.sh   ~/.custom.sh
+	cp `pwd`/custom.sh   ~/.custom.sh
