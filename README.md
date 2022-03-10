@@ -38,13 +38,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # install zsh theme powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-## Janus
+## Vim
 
-# install dependencies for janus
+# install dependencies for vim plugins
 sudo apt install ack-grep exuberant-ctags
-
-# install janus
-curl -Lo- https://bit.ly/janus-bootstrap | bash
 
 ## Dotfiles
 
@@ -53,6 +50,7 @@ git clone https://github.com/goooooouwa/dotfiles.git
 
 # install dotfiles
 cd dotfiles
+cp custom-example.sh custom.sh
 make install
 cd -
 
