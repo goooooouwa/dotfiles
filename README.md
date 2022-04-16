@@ -27,7 +27,7 @@ sudo apt install -y git openssh-server curl git vim zsh
 curl -L http://install.ohmyz.sh | sh
 
 # fix: change default shell to zsh
-chsh -s /bin/zsh
+chsh -s $(which zsh)
 
 # install zsh plugin zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
