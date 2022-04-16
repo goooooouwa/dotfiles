@@ -14,7 +14,7 @@ dotfiles - platform-agnostic configs
 sudo apt update
 
 # one-liner
-sudo apt install openssh-server curl git vim zsh
+sudo apt install -y git openssh-server curl git vim zsh
 
 ## RVM
 
