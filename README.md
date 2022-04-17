@@ -6,64 +6,6 @@ dotfiles - platform-agnostic configs
 1. Create a `custom.sh` file and cusomize to your needs (see `custom-example.sh`)
 2. `$ make install` (see details in `Makefile`)
 
-## Setup Environment
-```
-## Env setup
+## Setup Environment for Ubuntu
 
-# update apt source-list
-sudo apt update
-
-# one-liner
-sudo apt install -y git openssh-server curl git vim zsh
-
-## RVM
-
-# install rvm
-\curl -sSL https://get.rvm.io | bash -s stable --ruby
-
-## On-my-zsh
-
-# install oh-my-zsh
-curl -L http://install.ohmyz.sh | sh
-
-# fix: change default shell to zsh
-chsh -s $(which zsh)
-
-# install zsh plugin zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-# install zsh plugin zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
-# install zsh theme powerlevel10k
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-
-## Vim
-
-# install dependencies for vim plugins
-sudo apt install ack-grep exuberant-ctags
-
-## Dotfiles
-
-# clone my dot files
-git clone https://github.com/goooooouwa/dotfiles.git
-
-# install dotfiles
-cd dotfiles
-cp custom-example.sh custom.sh
-make install
-cd -
-
-## Java
-
-#(optional) install java
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt update
-sudo apt install oracle-java7-installer
-
-## NVM
-
-#(optional) install NVM and node
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
-nvm install 5.0
-```
+`sh ./ubuntu-setup.sh`
