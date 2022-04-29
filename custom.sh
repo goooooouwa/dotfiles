@@ -3,8 +3,9 @@
 loadrvm
 loadnvm
 
-alias vim='mvim -v'
-
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 
+## Mac specific
+export PATH="/Applications/MacVim.app/Contents/bin:$PATH"
+alias vim='mvim -v'
