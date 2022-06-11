@@ -55,15 +55,11 @@ source $ZSH/oh-my-zsh.sh
 
 ## Platform agnostic customizations
 
-## create alias to load rvm/nvm env on demand
-alias loadnvm=". ~/.loadnvm.sh"
-alias loadrvm=". ~/.loadrvm.sh"
-
-## Load specific customizations in ~/.custom.sh
-source ~/.custom.sh
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+eval "$(rbenv init - zsh)"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
