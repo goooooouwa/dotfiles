@@ -8,15 +8,6 @@ sudo apt update
 # one-liner
 sudo apt install -y git openssh-server curl git vim zsh
 
-## RVM
-
-# import keys
-curl -sSL https://rvm.io/mpapis.asc | gpg --import -
-curl -sSL https://rvm.io/pkuczynski.asc | gpg --import -
-
-# install rvm
-\curl -sSL https://get.rvm.io | bash
-
 ## On-my-zsh
 
 # install oh-my-zsh
@@ -34,6 +25,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # install zsh theme powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
+# install rbenv
+brew install rbenv ruby-build
+rbenv init
+
 ## Vim
 
 # install dependencies for vim plugins
@@ -42,7 +37,7 @@ sudo apt install -y ack-grep exuberant-ctags
 ## Dotfiles
 
 # clone my dot files
-git clone https://github.com/goooooouwa/dotfiles.git
+# git clone https://github.com/goooooouwa/dotfiles.git
 
 ## Java
 
@@ -58,7 +53,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | b
 # nvm install 5.0
 
 # install dotfiles
-cd dotfiles
-make install
-cd -
+# cd dotfiles
+# make install
+# cd -
 
