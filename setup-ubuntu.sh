@@ -37,6 +37,9 @@ rbenv init
 # install dependencies for vim plugins
 sudo apt install -y ack-grep exuberant-ctags
 
+# install spf13-vim
+curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
+
 ## Dotfiles
 
 # clone my dot files
