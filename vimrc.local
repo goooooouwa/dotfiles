@@ -1,4 +1,4 @@
 " ## Customizations
 
-let g:solarized_termcolors = 256
+let g:solarized_termcolors = 8
 colorscheme solarized
