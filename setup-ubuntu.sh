@@ -48,9 +48,7 @@ curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 ## Java
 
 #(optional) install java
-# sudo add-apt-repository ppa:webupd8team/java
-# sudo apt update
-# sudo apt install oracle-java7-installer
+# sudo apt install default-jre
 
 ## NVM
 
