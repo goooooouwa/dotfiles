@@ -53,8 +53,8 @@ curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 ## NVM
 
 #(optional) install NVM and node
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
-# nvm install 5.0
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+# nvm install --lts
 
 # install dotfiles
 # cd dotfiles
