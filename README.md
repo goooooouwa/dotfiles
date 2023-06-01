@@ -3,7 +3,7 @@ dotfiles - platform-agnostic configs
 
 ## Setup for Ubuntu
 
-`sh ./ubuntu-setup.sh`
+`sh ./setup-ubuntu.sh`
 
 ## Install
 
