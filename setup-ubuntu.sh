@@ -6,7 +6,7 @@
 sudo apt update
 
 # one-liner
-sudo apt install -y git openssh-server curl git vim zsh
+sudo apt install -y git openssh-server curl git vim zsh build-essential
 
 ## On-my-zsh
 
@@ -29,7 +29,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # install rbenv
-brew install rbenv ruby-build
+brew install gcc rbenv ruby-build
 rbenv init
 
 ## Vim
