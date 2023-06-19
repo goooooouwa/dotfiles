@@ -38,3 +38,6 @@ default_height = 30
 [[layers]]
 name = "colorscheme"
 
+[[layers]]
+name = "git"
+git_plugin = 'fugitive'
