@@ -60,6 +60,9 @@ source $ZSH/oh-my-zsh.sh
 
 alias vi=vim
 
+# load brew
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
 # load rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - zsh)"
