@@ -6,3 +6,5 @@ install:
 	cp `pwd`/gitconfig   ~/.gitconfig
 	ln -fs `pwd`/zshrc   ~/.zshrc
 	ln -fs `pwd`/screenrc   ~/.screenrc
+	ln -fs `pwd`/Xresources   ~/.Xresources
+	ln -fs `pwd`/xinitrc   ~/.xinitrc
