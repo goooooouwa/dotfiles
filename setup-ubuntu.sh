@@ -29,9 +29,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # install rbenv
-brew install gcc
-brew install rbenv ruby-build
-rbenv init
+#brew install gcc
+#brew install rbenv ruby-build
+#rbenv init
 
 ## Vim
 
