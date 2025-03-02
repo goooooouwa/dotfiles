@@ -33,6 +33,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 #brew install rbenv ruby-build
 #rbenv init
 
+#rbenv install 2.7.6
+
 ## Vim
 
 # install dependencies for vim plugins
@@ -56,6 +58,11 @@ curl -sLf https://spacevim.org/install.sh | bash
 #(optional) install NVM and node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 # nvm install --lts
+
+## pyenv
+
+curl -fsSL https://pyenv.run | bash
+# pyenv install 3
 
 # install dotfiles
 # cd dotfiles
