@@ -61,7 +61,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 ## pyenv
 
-curl -fsSL https://pyenv.run | bash
+brew install pyenv
 # pyenv install 3
 
 # install dotfiles
