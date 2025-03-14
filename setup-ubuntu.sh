@@ -28,13 +28,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# install rbenv
-#brew install gcc
-#brew install rbenv ruby-build
-#rbenv init
-
-#rbenv install 2.7.6
-
 ## Vim
 
 # install dependencies for vim plugins
@@ -42,30 +35,4 @@ sudo apt install -y ack-grep exuberant-ctags
 
 # Install SpaceVim
 curl -sLf https://spacevim.org/install.sh | bash
-
-## Dotfiles
-
-# clone my dot files
-# git clone https://github.com/goooooouwa/dotfiles.git
-
-## Java
-
-#(optional) install java
-# sudo apt install default-jre
-
-## NVM
-
-#(optional) install NVM and node
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-# nvm install --lts
-
-## pyenv
-
-brew install pyenv
-# pyenv install 3
-
-# install dotfiles
-# cd dotfiles
-# make install
-# cd -
 
