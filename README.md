@@ -5,11 +5,11 @@ dotfiles - platform-agnostic configs
 
 `sh ./setup-ubuntu.sh`
 
+## Install configurations
+
+1. `$ make install` (see details in `Makefile`)
+
 ## Install programming languages
 
 `sh ./install-languages.sh`
-
-## Apply configurations
-
-1. `$ make install` (see details in `Makefile`)
 
