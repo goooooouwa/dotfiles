@@ -19,5 +19,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ## Python with pyenv
 
 brew install pyenv
+brew install tcl-tk sqlite3
 # pyenv install 3
 
