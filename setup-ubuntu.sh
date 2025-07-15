@@ -33,6 +33,3 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # install dependencies for vim plugins
 sudo apt install -y ack-grep exuberant-ctags
 
-# Install SpaceVim
-curl -sLf https://spacevim.org/install.sh | bash
-
