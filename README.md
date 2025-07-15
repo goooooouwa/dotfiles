@@ -13,3 +13,6 @@ dotfiles - platform-agnostic configs
 
 `sh ./install-languages.sh`
 
+## Uninstall SpaceVim
+
+`bash ./SpaceVim.d/install.sh --uninstall`
