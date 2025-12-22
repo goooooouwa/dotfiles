@@ -6,7 +6,7 @@
 sudo apt update
 
 # one-liner
-sudo apt install -y git openssh-server curl vim zsh build-essential tmux
+sudo apt install -y git openssh-server curl vim zsh build-essential tmux zlib1g-dev
 
 ## On-my-zsh
 
