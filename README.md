@@ -7,7 +7,7 @@ dotfiles - platform-agnostic configs
 
 ## Install configurations
 
-1. `$ make install` (see details in `Makefile`)
+1. `make install` (see details in `Makefile`)
 
 ## Install programming languages
 
