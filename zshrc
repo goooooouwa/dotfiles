@@ -78,3 +78,6 @@ eval "$(pyenv init -)"
 
 # Installing alias to point to acme.sh script
 . "/home/greg/.acme.sh/acme.sh.env"
+
+# Ensure sendmail is available
+export PATH="$PATH:/usr/sbin"
