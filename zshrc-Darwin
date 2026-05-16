@@ -1,0 +1,5 @@
+## Mac customizations
+
+# load brew
+eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+

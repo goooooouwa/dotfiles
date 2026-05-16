@@ -1,0 +1,12 @@
+## Linux customizations
+
+alias vi=vim
+
+# load brew
+eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+
+# Installing alias to point to acme.sh script
+. "/home/greg/.acme.sh/acme.sh.env"
+
+# Ensure sendmail is available
+export PATH="$PATH:/usr/sbin"

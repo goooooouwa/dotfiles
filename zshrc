@@ -60,9 +60,6 @@ source $ZSH/oh-my-zsh.sh
 
 alias vi=vim
 
-# load brew
-eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-
 # load rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - zsh)"
@@ -76,8 +73,6 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-# Installing alias to point to acme.sh script
-. "/home/greg/.acme.sh/acme.sh.env"
-
-# Ensure sendmail is available
-export PATH="$PATH:/usr/sbin"
+# Source .zshrc for specfic os
+# ref: https://unix.stackexchange.com/questions/252166/how-to-configure-zshrc-for-specfic-os
+source "${ZDOTDIR:-${HOME}}/.zshrc-`uname`"

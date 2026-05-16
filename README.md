@@ -1,13 +1,21 @@
 dotfiles - platform-agnostic configs
 ========
 
-## Setup Environment for Ubuntu
+## Setup Environment for Linux
 
 `sh ./setup-ubuntu.sh`
 
 ## Install configurations
 
-1. `make install` (see details in `Makefile`)
+1. `make install-linux` (see details in `Makefile`)
+
+## Setup Environment for Mac
+
+`sh ./setup-mac.sh`
+
+## Install configurations
+
+1. `make install-mac` (see details in `Makefile`)
 
 ## Install programming languages
 
