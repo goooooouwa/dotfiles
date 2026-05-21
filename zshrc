@@ -53,6 +53,10 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
+# Source .zshrc for specfic os
+# ref: https://unix.stackexchange.com/questions/252166/how-to-configure-zshrc-for-specfic-os
+source "${ZDOTDIR:-${HOME}}/.zshrc-`uname`"
+
 ## Platform agnostic customizations
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -83,7 +87,3 @@ eval "$(pyenv init -)"
 
 # Claude Code
 export PATH="$HOME/.local/bin:$PATH"
-
-# Source .zshrc for specfic os
-# ref: https://unix.stackexchange.com/questions/252166/how-to-configure-zshrc-for-specfic-os
-source "${ZDOTDIR:-${HOME}}/.zshrc-`uname`"
