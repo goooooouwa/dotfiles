@@ -16,11 +16,12 @@ rbenv init
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 # nvm install --lts
 
-## Python with pyenv
+## Install Python with pyenv
+brew install uv
 
+## Install Python with pyenv
 brew install pyenv
+brew install openssl@3 readline sqlite3 xz tcl-tk@8 libb2 zstd zlib pkgconfig # Python build environment
 
-### Install Python build environment
-brew install openssl@3 readline sqlite3 xz tcl-tk@8 libb2 zstd zlib pkgconfig
 # pyenv install 3
 
