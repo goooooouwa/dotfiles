@@ -60,6 +60,10 @@ source $ZSH/oh-my-zsh.sh
 
 alias vi=vim
 
+# Brew configurations
+export HOMEBREW_NO_INSTALL_CLEANUP=1
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 # load rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - zsh)"
