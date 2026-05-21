@@ -81,6 +81,9 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+# Claude Code
+echo 'export PATH="$HOME/.local/bin:$PATH"'
+
 # Source .zshrc for specfic os
 # ref: https://unix.stackexchange.com/questions/252166/how-to-configure-zshrc-for-specfic-os
 source "${ZDOTDIR:-${HOME}}/.zshrc-`uname`"

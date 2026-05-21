@@ -3,14 +3,3 @@
 # load brew
 eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 
-# Claude Code
-echo 'export PATH="$HOME/.local/bin:$PATH"'
-
-export SPARK_HOME="$HOME/apps/spark-3.5.2-bin-hadoop3"
-export PYSPARK_PYTHON=python3.11
-export PATH="$HOME/.jenv/bin:$PATH:$SPARK_HOME/bin"
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:$HOME/.lmstudio/bin"
-# End of LM Studio CLI section
-
