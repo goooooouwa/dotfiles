@@ -82,7 +82,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init -)"
 
 # Claude Code
-echo 'export PATH="$HOME/.local/bin:$PATH"'
+export PATH="$HOME/.local/bin:$PATH"
 
 # Source .zshrc for specfic os
 # ref: https://unix.stackexchange.com/questions/252166/how-to-configure-zshrc-for-specfic-os
