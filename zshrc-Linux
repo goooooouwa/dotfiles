@@ -2,8 +2,8 @@
 
 alias vi=vim
 
-# load brew
-eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+# load brew on Linux
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Installing alias to point to acme.sh script
 . "/home/greg/.acme.sh/acme.sh.env"

@@ -53,7 +53,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
-# Source .zshrc for specfic os
+# Source .zshrc for specific os
 # ref: https://unix.stackexchange.com/questions/252166/how-to-configure-zshrc-for-specfic-os
 source "${ZDOTDIR:-${HOME}}/.zshrc-`uname`"
 
