@@ -5,8 +5,10 @@ alias vi=vim
 # load brew on Linux
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# Installing alias to point to acme.sh script
-. "/home/greg/.acme.sh/acme.sh.env"
-
 # Ensure sendmail is available
 export PATH="$PATH:/usr/sbin"
+
+# TODO: move the following config to ~/.zshrc.local
+# Installing alias to point to acme.sh script
+#. "/home/greg/.acme.sh/acme.sh.env"
+
